@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #131313;
+    height: 210vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1883A5;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.genders :hover {
+   color:white
+}
+
+
+
+
+hr{
+        height: 1px;
+        background-color: #1883A5;
+        border: none;
+        width: 100% 
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #1883A5;
+    border: none;
+    border-radius: 50px;
+    color: #131313;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+
+
+.logo {
+    width: 10%;
+    cursor: pointer;
+    margin-right: 120px;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #131313;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav {
+    position: absolute;
+    background: #131313;
+    margin-top: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+.information {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    color: #fff;
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+    
+}
+
+.picture {
+    width: 100%;
+    height: 80%;
+}
+
+
+
+@media (min-width: 600px){
+    nav {
+        display: block;
+        position: static;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+        margin-top: 5%;
+    }
+}
+
+footer {
+    background-color: #1883A5;
+    margin-top: auto;
+}
+
+.footerNav {
+
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: #131313;
+    margin-top: -40px;
+
+}
+
+.footerContainer {
+    width: 100%;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #131313;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialIcons i{
+    font-size: 2em;
+    color: #1883A5;
+    opacity: 0.9;
+
+}
+
+.questions {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #131313;
+    margin-top: -150px;
+    padding: 10px;
+    
+}
+
+li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+h2 {
+    float: right;
+    margin-right: 270px;
+    margin-top: -250px;
+    font-size: 40px;
+    
+}
+
+.logo2 {
+    width: 15%;
+    float: right;
+    margin-top: -150px;
+    margin-right: 200px;
+}
+
+.About {
+    cursor: pointer;
+}
+
+.About a {
+    color: #131313;
+}
+
+@media (min-width:600px){
+    .footerNav{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+
+
+    }
+}
