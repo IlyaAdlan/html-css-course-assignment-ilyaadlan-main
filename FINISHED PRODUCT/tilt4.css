@@ -48,9 +48,10 @@ button {
 
 
 .logo {
-    width: 10%;
+    align-self: center;
+    width: 15%;
     cursor: pointer;
-    margin-right: 120px;
+    margin-left: 500px;
 }
 
 nav,
@@ -139,6 +140,10 @@ footer {
 
 .footerContainer {
     width: 100%;
+}
+
+.footerNav h1{
+    color: #131313;
 }
 
 .socialIcons {

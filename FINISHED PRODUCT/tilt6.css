@@ -47,9 +47,10 @@ button {
 
 
 .logo {
-    width: 10%;
+    align-self: center;
+    width: 15%;
     cursor: pointer;
-    margin-right: 120px;
+    margin-left: 500px;
 }
 
 nav,
@@ -150,6 +151,10 @@ footer {
 
 }
 
+.footerNav h1{
+    color: #131313;
+}
+
 .footerContainer {
     width: 100%;
 }
@@ -209,6 +214,10 @@ h2 {
 
 .About a {
     color: #131313;
+}
+
+.checkmark {
+    width: 300px;
 }
 
 

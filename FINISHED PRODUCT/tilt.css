@@ -67,9 +67,10 @@ button2 {
 
 
 .logo {
-    width: 10%;
+    align-self: center;
+    width: 15%;
     cursor: pointer;
-    margin-right: 120px;
+    margin-left: 500px;
 }
 
 
@@ -146,6 +147,10 @@ nav a {
     height: 350px;
 }
 
+.rain-jacket {
+    width: 300px;
+}
+
 
 
 @media (min-width: 600px){
@@ -171,6 +176,10 @@ footer {
 .footerNav {
     list-style: none;
     
+}
+
+.footerNav h1{
+    color: #131313;
 }
 
 .footerContainer {

@@ -77,9 +77,10 @@ button2 {
 
 
 .logo {
-    width: 10%;
+    align-self: center;
+    width: 15%;
     cursor: pointer;
-    margin-right: 120px;
+    margin-left: 500px;
 }
 
 nav,
@@ -271,6 +272,10 @@ footer {
     color: #131313;
     margin-top: -40px;
 
+}
+
+.footerNav h1{
+    color: #131313;
 }
 
 .footerContainer {
